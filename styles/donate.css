@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background: #1E1E1E;
+    text-align: center;
+    padding: 180px 300px;
+    background-image: url(../images/donation13.jpg);
+    color: #FFFFFF;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+   
+}
+
+.header .donate-header {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header .donate-description {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header .btn-primary {
+    padding: 16px 12px;
+    gap: 8px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
