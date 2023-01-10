@@ -154,3 +154,36 @@ img {
 #donation-contribute{
 padding: 150px 90px 130px 156px ;
 }
+.donate-success{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.donate-email{
+    text-align: center;
+    background: #FFF4D6;
+    margin: 0 315px 130px 316px;
+    padding: 76px 190px;
+}
+footer{
+    text-align: center;
+    background: #0B0D17;
+    padding: 0px 400px;
+
+}
+.donate-humble{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    letter-spacing: 0.5px;
+    padding-bottom: 24px ;
+padding-top: 43px;
+}
+.donate-do{
+    
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    padding: 0px 32px 42px 32px ;
+}
