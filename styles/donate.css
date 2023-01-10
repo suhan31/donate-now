@@ -4,15 +4,14 @@
 
 .header {
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
-    background: #1E1E1E;
     text-align: center;
     padding: 180px 300px;
     background-image: url(../images/donation13.jpg);
     color: #FFFFFF;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    
-   
+
+
 }
 
 .header .donate-header {
@@ -20,17 +19,115 @@
     font-size: 65px;
 }
 
-.header .donate-description {
+.title-description {
     font-weight: 400;
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.header .btn-primary {
+.btn-primary {
     padding: 16px 12px;
     gap: 8px;
     background: #FF5959;
     border-radius: 5px;
     color: #FFFFFF;
+}
+
+/* section 1 */
+.donate-section {
+    margin: 130px;
+    text-align: center;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.donate-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 50px 250px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.donation-tk {
+    padding: 45px 23px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    margin-right: 22px;
+
+}
+
+.donation-orange {
+    padding: 45px 23px;
+    font-weight: 700;
+    font-size: 30px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+
+#amount {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding: 10px;
+}
+
+.donate-section .btn-primary {
+    margin-top: 30px;
+}
+
+/* section 2 */
+
+.donate-div {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.donate-area {
+    display: flex;
+    margin: 50px 160px 130px 160px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+.donate-food{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 25px;
+    padding: 100px 22px 55px 23px;
+}
+.donate-shelter{
+    border-radius: 5px;
+    margin-right: 25px;
+    padding: 100px 22px 55px 23px;
+    background: rgba(255, 89, 89, 0.1);
+}
+.donate-education{
+    border-radius: 5px;
+    margin-right: 25px;
+    padding: 100px 22px 55px 23px;
+    background: #FFF4D6;
+}
+i{
+     padding-bottom: 35px;
 }
