@@ -110,24 +110,47 @@ h3 {
     font-size: 24px;
     color: #121212;
 }
-.donate-food{
+
+.donate-food {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     margin-right: 25px;
     padding: 100px 22px 55px 23px;
 }
-.donate-shelter{
+
+.donate-shelter {
     border-radius: 5px;
     margin-right: 25px;
     padding: 100px 22px 55px 23px;
     background: rgba(255, 89, 89, 0.1);
 }
-.donate-education{
+
+.donate-education {
     border-radius: 5px;
     margin-right: 25px;
     padding: 100px 22px 55px 23px;
     background: #FFF4D6;
 }
-i{
-     padding-bottom: 35px;
+
+i {
+    padding-bottom: 35px;
+}
+.donate-live {
+margin: 182px 0px 150px 160px;
+} 
+
+.section-live {
+    display: flex;
+}
+
+img {
+    width: 456px;
+    height: 477px;
+   padding: 130px 250px 152px 80px ;
+}
+.donate-online{
+    margin:200px 250px 181px 0 ;
+}
+#donation-contribute{
+padding: 150px 90px 130px 156px ;
 }
